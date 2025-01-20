@@ -2,19 +2,19 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "50931461936"
-global.ownername = " 𝙎-𝙏𝞢𝞜"
-global.ytname = "YT: 𝙎-𝙏𝞢𝞜"
+global.ownernomer = "923180659844"
+global.ownername = " BABA-HITTLER"
+global.ytname = "YT: BABA-BHITTLER"
 global.socialm = "GitHub: "
 global.location = "America, Haïti, Port-au-Prince"
 
-global.ownernumber = '50931461936'  //creator number
-global.ownername = '🌹⃟⃢👑 ĐÆ𝚪𝐊༒𝙎-𝙏𝞢𝞜🌹⃟⃢👑' //owner name
+global.ownernumber = '923180659844'  //creator number
+global.ownername = '🌹⃟⃢👑BABA༒HITTLER🌹⃟⃢👑' //owner name
 global.botname = '𝙎-𝙏𝞢𝞜 𝘽𝙊𝙏 𝘽𝙐𝙂' //name of the bot
 
 //sticker details
-global.packname = 'Sticker By'
-global.author = ' 𝙎-𝙏𝞢𝞜👑\n\nContact: +50931461936'
+global.packname = 'Sticker By HITTLER BABA'
+global.author = ' 𝙎-𝙏𝞢𝞜👑\n\nContact: 923180659844'
 
 //console view/theme
 global.themeemoji = '🪀'
@@ -28,10 +28,10 @@ global.prefa = ['','!','.','#','&']
 
 //false=disable and true=enable
 global.autoRecording = false //auto recording
-global.autoTyping = false //auto typing
+global.autoTyping = true //auto typing
 global.autorecordtype = true//auto typing + recording
 global.autoread = false //auto read messages
-global.autobio = false //auto update bio
+global.autobio = ftrue //auto update bio
 global.anti92 = false //auto block +92 
 global.autoswview = true//auto view status/story
 
@@ -61,7 +61,7 @@ global.mess = {
     error: 'Error!',
 }
 
-global.thumb = fs.readFileSync('./XeonMedia/thumb.jpg')
+global.thumb = fs.readFileSync('https://i.ibb.co/zJMVLHz/f4c83015e218.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
